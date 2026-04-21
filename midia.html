@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real Madrid | Mídia e Formulário</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,
+  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+    <circle cx='50' cy='50' r='48' fill='white' stroke='%23d4af37' stroke-width='6'/>
+    <text x='50' y='58' font-size='28' text-anchor='middle' fill='%230a1f44' font-family='Arial'>RM</text>
+  </svg>">
+</head>
+<body id="topo-midia">
+
+  <header class="sub-header">
+    <nav class="menu">
+      <a href="index.html">Início</a>
+      <a href="historia.html">História</a>
+      <a href="midia.html">Mídia e Formulário</a>
+      <a href="#video-audio">Vídeo e Áudio</a>
+      <a href="#formulario">Formulário</a>
+    </nav>
+
+    <h1>Mídia e Formulário do Torcedor</h1>
+    <p>Página com conteúdo multimídia e formulário completo.</p>
+  </header>
+
+  <main class="container">
+
+    <section class="card" id="video-audio">
+      <h2>Vídeo e áudio</h2>
+
+      <div class="media-box">
+        <iframe 
+        width="100%" 
+        height="400" 
+        src="https://www.youtube.com/watch?v=RgdbGryz_Kg"
+        title="Vídeo do Real Madrid"
+        frameborder="0"
+        allowfullscreen>
+        </iframe>
+      </div>
+
+      <div class="media-box">
+        <h3>Áudio</h3>
+        <audio controls>
+            <source src="audio/hino-real-madrid.mp3" type="audio/mpeg">
+            Seu navegador não suporta áudio.
+        </audio>
+      </div>
+    </section>
+
+    <section class="card" id="formulario">
+      <h2>Formulário do torcedor</h2>
+
+      <form action="#" method="post" class="formulario">
+        <fieldset>
+          <legend>Informações pessoais</legend>
+
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+          <label for="idade">Idade:</label>
+          <input type="number" id="idade" name="idade" min="10" max="100" required>
+
+          <label for="nascimento">Data de nascimento:</label>
+          <input type="date" id="nascimento" name="nascimento">
+
+          <label for="cor">Cor favorita para uniforme:</label>
+          <input type="color" id="cor" name="cor">
+
+          <label for="pais">País:</label>
+          <select id="pais" name="pais">
+            <option value="brasil">Brasil</option>
+            <option value="espanha">Espanha</option>
+            <option value="portugal">Portugal</option>
+            <option value="argentina">Argentina</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferências do torcedor</legend>
+
+          <p>Qual setor do time você mais gosta?</p>
+          <label><input type="radio" name="setor" value="ataque" required> Ataque</label>
+          <label><input type="radio" name="setor" value="meio"> Meio-campo</label>
+          <label><input type="radio" name="setor" value="defesa"> Defesa</label>
+
+          <p>Quais conteúdos você gostaria de receber?</p>
+          <label><input type="checkbox" name="conteudo" value="noticias" required> Notícias</label>
+          <label><input type="checkbox" name="conteudo" value="jogos"> Jogos</label>
+          <label><input type="checkbox" name="conteudo" value="curiosidades"> Curiosidades</label>
+
+          <label for="camisa">Número favorito de camisa:</label>
+          <input type="range" id="camisa" name="camisa" min="1" max="99">
+
+          <label for="busca">Jogador preferido:</label>
+          <input type="search" id="busca" name="busca" placeholder="Pesquise o nome">
+
+          <label for="comentario">Comentário:</label>
+          <textarea id="comentario" name="comentario" rows="5" placeholder="Escreva sua mensagem"></textarea>
+        </fieldset>
+
+        <div class="botoes">
+          <button type="reset">Resetar</button>
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+
+      <p>
+        <a href="#topo-midia">Voltar ao topo</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Página com mídia e formulário do site.</p>
+    <a href="index.html">Voltar para a página inicial</a>
+  </footer>
+
+</body>
+</html>
