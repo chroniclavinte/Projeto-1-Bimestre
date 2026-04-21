@@ -1,0 +1,60 @@
+# 📘 Projeto 1° Bimestre 
+
+## 📚 Disciplina
+
+Projeto de Interface 
+
+---
+
+## 👤 Aluno
+
+Nome: Luca Oliveira Fernandes
+Matrícula: 2524290032
+
+---
+
+## 👨‍🏫 Professor
+
+Elias do Nascimento Melo Filho
+
+---
+
+## 📅 Semestre
+
+1° Semestre
+
+---
+
+## 📝 Descrição do Projeto
+
+Este projeto foi desenvolvido como atividade da disciplina **Projeto de Interface **, com o objetivo de aplicar conceitos fundamentais de **HTML** e **CSS** na construção de um site completo.
+
+O tema escolhido foi o clube de futebol **Real Madrid**.
+
+---
+
+## 🌐 Estrutura do Projeto
+
+O site é composto por três páginas principais:
+
+* `index.html` → Página inicial com apresentação, listas e navegação
+* `historia.html` → Página com história do clube, galeria de imagens e tabelas
+* `midia.html` → Página com vídeo, áudio e formulário 
+* `style.css` → Arquivo de estilização do site
+
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+* HTML5
+* CSS3
+
+---
+
+## 🚀 Como Executar
+
+1. Baixe ou clone o repositório
+2. Abra a pasta do projeto
+3. Execute o arquivo `index.html` no navegador
+
+---
